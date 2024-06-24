@@ -23,6 +23,7 @@ import{s}from "./App.style";
     }
     Linking.openURL(url);
   }
+  123
  
   return (
     <SafeAreaProvider>
@@ -32,6 +33,7 @@ import{s}from "./App.style";
         <Profilecard 
           onPressSocialMediaIcon={goToSocialMedia} 
           firstName="Dinakar"
+	  rakeshchanged
           lastName="Dommata"
           age={23}
         />
